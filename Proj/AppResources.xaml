@@ -1,0 +1,14 @@
+﻿<!-- AppResources.xaml -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- Define your resources here -->
+    <Color x:Key="LabelTextColor">#333333</Color>
+    <Style x:Key="TreeItemLabelStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource LabelTextColor}" />
+        <!-- Add more setters as needed -->
+    </Style>
+
+    <!-- Add more resources as needed -->
+
+</ResourceDictionary>
