@@ -17,12 +17,12 @@
         {
             SemanticScreenReader.Announce(Page2.Text);
             Navigation.PushAsync(new FlexLayoutPage());
-        }        
+        }
         private void OnPage3Clicked(object sender, EventArgs e)
         {
             SemanticScreenReader.Announce(Page3.Text);
             Navigation.PushAsync(new VerticalStackLayoutPage());
-        }        
+        }
         private void OnPage4Clicked(object sender, EventArgs e)
         {
             SemanticScreenReader.Announce(Page4.Text);

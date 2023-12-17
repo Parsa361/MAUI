@@ -1,6 +1,5 @@
-﻿using Microsoft.Maui.Controls;
+﻿using Proj.Models;
 using System.Collections.ObjectModel;
-
 namespace Proj
 {
     public partial class HorizontalStackLayoutPage : ContentPage
