@@ -53,43 +53,37 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="FlexLayoutPage.xaml.cs">
+	  <Compile Update="Views\FlexLayoutPage.xaml.cs">
 	    <DependentUpon>FlexLayoutPage.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="AppResources.xaml.cs">
-	    <DependentUpon>AppResources.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="HorizontalStackLayoutPage.xaml.cs">
+	  <Compile Update="Views\HorizontalStackLayoutPage.xaml.cs">
 	    <DependentUpon>HorizontalStackLayoutPage.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="VerticalStackLayoutPage.xaml.cs">
+	  <Compile Update="Views\VerticalStackLayoutPage.xaml.cs">
 	    <DependentUpon>VerticalStackLayoutPage.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="ImageDetail.xaml.cs">
+	  <Compile Update="Views\ImageDetail.xaml.cs">
 	    <DependentUpon>ImageDetail.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="GridLayoutPage.xaml.cs">
+	  <Compile Update="Views\GridLayoutPage.xaml.cs">
 	    <DependentUpon>GridLayoutPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="FlexLayoutPage.xaml">
+	  <MauiXaml Update="Views\FlexLayoutPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="AppResources.xaml">
+	  <MauiXaml Update="Views\HorizontalStackLayoutPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="HorizontalStackLayoutPage.xaml">
+	  <MauiXaml Update="Views\VerticalStackLayoutPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="VerticalStackLayoutPage.xaml">
+	  <MauiXaml Update="Views\ImageDetail.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ImageDetail.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="GridLayoutPage.xaml">
+	  <MauiXaml Update="Views\GridLayoutPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
