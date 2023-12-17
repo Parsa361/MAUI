@@ -1,25 +1,4 @@
-﻿
-/* Unmerged change from project 'Proj (net7.0-ios)'
-Before:
-using System.Collections.ObjectModel;
-After:
-using Microsoft.Maui.Controls;
-*/
-
-/* Unmerged change from project 'Proj (net7.0-windows10.0.19041.0)'
-Before:
-using System.Collections.ObjectModel;
-After:
-using Microsoft.Maui.Controls;
-*/
-
-/* Unmerged change from project 'Proj (net7.0-android)'
-Before:
-using System.Collections.ObjectModel;
-After:
-using Microsoft.Maui.Controls;
-*/
-using Proj.Models;
+﻿using Proj.Models;
 using System.Collections.ObjectModel;
 
 namespace Proj
