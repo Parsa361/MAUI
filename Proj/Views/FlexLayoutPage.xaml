@@ -17,6 +17,10 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
+    <ContentPage.BindingContext>
+        <local:FlexLayoutViewModel />
+    </ContentPage.BindingContext>
+
     <ContentPage.Content>
         <FlexLayout Direction="Column"
                     AlignItems="Center">
